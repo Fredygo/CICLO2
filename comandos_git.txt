@@ -1,0 +1,31 @@
+https://github.com/Fredygo/CICLO2.git
+
+…or create a new repository on the command line
+echo "# CICLO2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Fredygo/CICLO2.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/Fredygo/CICLO2.git
+git branch -M main
+git push -u origin main
+
+
+git config --global user.name "Fredygo"
+git config --global user.email "frosma18@hotmail.com"
+
+git add .
+
+git status
+
+git commit -m “primera actualizacion”
+
+git remote add origin https://github.com/Fredygo/CICLO2.git
+
+git push --set-upstream origin master
+
+git clone https://github.com/luisguillermomolero/MisionTIC2022
+
